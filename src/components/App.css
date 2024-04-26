@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pat5App {
+  background-color: #61dafb;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.pat5App form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+
+.pat5App form input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-bottom: 2px solid #61dafb;
+}
+
+.pat5App form input:focus {
+  outline: #282c34;
+}
+
+.pat5App form button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  /* border: none; */
+  border: 2px solid #282c34;
+  background-color: aquamarine;
+}
+
+.pat5App form button:hover {
+  background-color: aqua;
+}
+
+.pat5App table {
+  width: 80%;
+  border-collapse: collapse;
+  border: 2px solid #282c34;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.pat5App table td {
+  border: 1px solid #282c34;
+  padding: 10px;
+}
+
+.pat6App {
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.pat6App form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  border: #282c34;
+}
+
+.pat6App form input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-bottom: 2px solid #282c34;
+}
+
+.pat6App form input:focus {
+  outline: blue;
+}
+
+.pat6App form button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 2px solid #282c34;
+  background-color: aquamarine;
+}
+
+.pat6App form button:hover {
+  background-color: aqua;
+}
