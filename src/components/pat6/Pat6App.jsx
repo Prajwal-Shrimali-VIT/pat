@@ -9,10 +9,10 @@ function Pat6App() {
     }
 
     return(
-        <>
+        <div className='pat6App'>
             <PasswordChecker callback={returnCallBack} />
             <textarea name="password" id="password" cols="30" rows="10" readOnly value={password}></textarea>
-        </>
+        </div>
     );
 }
 
